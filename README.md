@@ -29,3 +29,30 @@ python3 test_converter.py
 
 Fix the two `FIX ME` bugs in `converter.py`, add the remaining conversions with
 your partner, and re-run the tests until **5/5 passing**.
+
+## How to hand this in (git push — no screenshots)
+
+1. Commit your fixed `converter.py` with a real message:
+
+   ```bash
+   git add converter.py
+   git commit -m "Fix f_to_c formula and add bad-input guardrail"
+   ```
+
+2. Push to **your own repo** (this one):
+
+   ```bash
+   git push origin main
+   ```
+
+3. Confirm all 5 tests pass:
+
+   ```bash
+   python3 test_converter.py
+   ```
+
+4. In Google Classroom, submit a link to your repo
+   (`https://github.com/ivycollegiate-development/<your-repo-name>`).
+
+Your commit IS your submission. The tests are the rubric — 5/5 passing is
+the goal. Do **not** submit screenshots; we grade the pushed code.
