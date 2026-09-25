@@ -1,5 +1,34 @@
 # Unit Converter — Lab Starter (Unit 1)
 
+## Before you start — clone YOUR repo (not this one)
+
+You received your OWN copy of this repo by accepting a GitHub invitation in
+your email. Its name ends in `_student` — that is the one you work in.
+
+On the class VS Code server, clone it once:
+
+```bash
+git clone https://github.com/ivycollegiative-development/compmath-u1-converter-lab-$(whoami)_student.git
+cd compmath-u1-converter-lab-$(whoami)_student
+```
+
+Wait — check the URL carefully: the org is `ivycollegiate-development`.
+The exact URL for YOUR repo is in the lesson sheet and the Classroom
+assignment. `$(whoami)` prints your userid and inserts it automatically.
+
+Then pull before work, every session:
+
+```bash
+git config pull.rebase false
+git pull
+```
+
+- `git pull` gets any changes pushed to your repo since last class.
+- **Asked for a username/password?** GitHub username plus Personal Access
+  Token (PAT) — never your GitHub password.
+
+---
+
 Your job today: turn this broken converter into a correct, safe one.
 
 ## What's here
