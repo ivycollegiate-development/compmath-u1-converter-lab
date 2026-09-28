@@ -3,32 +3,29 @@
 
 ## Before you start — every session
 
-You work on the class VS Code server, in your own clone of this repo.
-Your userid shows up in your repo name, your clone URL, and your filenames
-via `$(whoami)`: `whoami` prints your userid, and `$(whoami)` inserts it
-automatically. If the folder is missing, re-clone it — your lesson has the
-exact URL, always ending in `_student.git`.
+You received your OWN copy of this repo by accepting a GitHub invitation in
+your email. Its name ends in `_student` — that is the one you work in.
 
-**Run this first, every session** — it checks you are in the right folder,
-then clones your repo if you don't have it yet:
+You work on the class VS Code server, in your own clone. Your userid shows up
+in the repo name and the clone URL: `whoami` prints your userid, and `$(whoami)`
+inserts it automatically, so the command below is the same for everyone.
+
+**First time only — clone it once.** Start in your home directory, so the repo
+lands somewhere you can find:
 
 ```bash
 cd ~
 git clone https://github.com/ivycollegiate-development/compmath-u1-converter-lab-$(whoami)_student.git
 cd compmath-u1-converter-lab-$(whoami)_student
-bash setup.sh
 ```
 
-The script stops with `[STOP]` if you are not in your home directory,
-because cloning into the wrong folder scatters your work where you can't
-find it. Fix that with `cd ~` and run it again.
+- If git asks for a username/password: GitHub username plus Personal Access
+  Token (PAT) — never your GitHub password.
+- If it says repository not found, the exact URL is also in the Classroom
+  assignment, and it always ends in `_student.git`.
 
-- It prints your clone URL before cloning — check it ends in `_student.git`.
-- It says `[OK] Verified: <your-repo>` when you are in the right place.
-- Already cloned? It runs `git pull` instead, to get changes I pushed.
-
-**Pull before work, every session** — it gets any changes I pushed to your
-repo since last class:
+**Every session after that — pull before you work.** It gets any changes I
+pushed to your repo since last class:
 
 ```bash
 cd ~/compmath-u1-converter-lab-$(whoami)_student
@@ -41,6 +38,8 @@ git pull
 - If the pull prints `Already up to date.` you have everything.
 - **Asked for a username/password?** GitHub username plus Personal Access
   Token (PAT) — never your GitHub password.
+
+Open the folder in the editor with `code .` and start working.
 
 # Unit Converter — Lab Starter (Unit 1)
 
