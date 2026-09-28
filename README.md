@@ -31,7 +31,7 @@ find it. Fix that with `cd ~` and run it again.
 repo since last class:
 
 ```bash
-cd ~/<your-clone-folder>
+cd ~/compmath-u1-converter-lab-$(whoami)_student
 git config pull.rebase false
 git pull
 ```
