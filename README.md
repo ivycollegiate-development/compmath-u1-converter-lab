@@ -14,6 +14,8 @@ then clones your repo if you don't have it yet:
 
 ```bash
 cd ~
+git clone https://github.com/ivycollegiate-development/compmath-u1-converter-lab-$(whoami)_student.git
+cd compmath-u1-converter-lab-$(whoami)_student
 bash setup.sh
 ```
 
